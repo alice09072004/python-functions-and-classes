@@ -33,7 +33,7 @@ class Vehicle:
     def describe(self):
         return f"This is a {self.color} {self.model}."
 
-# Directly print the outputs with user input
+
 
 # Get user input for Person
 person_name = input("Enter the person's name: ")

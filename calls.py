@@ -1,9 +1,9 @@
-# Import functions and classes from the other files
+
 from functions import greet, add_numbers, multiply_numbers, is_even
 from classes import Person, Animal, Vehicle
 
 # Call the functions from function.py
-print(greet("Alice"))  # Example usage of greet function
+print(greet("Alice")) 
 num1 = int(input("Enter a number to add: "))
 num2 = int(input("Enter another number to add: "))
 print(f"The sum is: {add_numbers(num1, num2)}")

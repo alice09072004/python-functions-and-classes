@@ -13,7 +13,7 @@ def is_even(num):
     else:
         return f"Computer Output: {num} is odd "
 
-# Get user inputs and display results
+
 name = input("Enter your name: ")
 print(greet(name))
 
